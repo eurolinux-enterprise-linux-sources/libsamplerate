@@ -1,7 +1,7 @@
 Summary:	Sample rate conversion library for audio data
 Name:		libsamplerate
 Version:	0.1.8
-Release:	4%{?dist}
+Release:	6%{?dist}
 License:	GPLv2+
 Group:		System Environment/Libraries
 URL:		http://www.mega-nerd.com/SRC/
@@ -75,6 +75,12 @@ unset LD_LIBRARY_PATH
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.1.8-6
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.1.8-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.1.8-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
